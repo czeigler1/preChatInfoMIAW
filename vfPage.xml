@@ -1,0 +1,7 @@
+    <apex:page contentType="application/json">
+    {
+        "email": "{!$User.Email}",
+        "fName": "{!$User.FirstName}",
+        "lName":  "{!$User.LastName}"
+    }
+    </apex:page>
